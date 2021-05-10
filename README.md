@@ -48,6 +48,90 @@ Use os seguintes comando dentro da pasta **api** para:
 ```
 node app.js
 ```
+## Documentação
+Não optamos pelo uso do swagger, já que o projeto possui apenas **um endpoint**
+###POST - Enviar CEP
+Endpoint
+```
+http://localhost:3000/
+```
+Body
+```
+{
+  "cep": "05520200"
+}
+```
+
+Reponse
+```
+{
+    "userLatitude": -23.5970754,
+    "userLongitude": -46.7401426,
+    "ubs": [
+        {
+            "title": "VL  SONIA",
+            "distancia": 547.5722734888624,
+            "lat": -23.597638,
+            "lon": -46.734804
+        },
+        {
+            "title": "JD JAQUELINE",
+            "distancia": 1213.5993891947915,
+            "lat": -23.594884,
+            "lon": -46.75181
+        },
+        {
+            "title": "JARDIM COLOMBO",
+            "distancia": 1350.2510952730204,
+            "lat": -23.601797,
+            "lon": -46.727934
+        },
+        {
+            "title": "JD PERI PERI",
+            "distancia": 1423.5329831274612,
+            "lat": -23.5866,
+            "lon": -46.732112
+        },
+        {
+            "title": "JD PINHEIROS",
+            "distancia": 1449.3248178764934,
+            "lat": -23.584118,
+            "lon": -46.738602
+        },
+        {
+            "title": "PARAISÓPOLIS",
+            "distancia": 2192.897757492695,
+            "lat": -23.612094,
+            "lon": -46.726194
+        },
+        {
+            "title": "VL  GOMES",
+            "distancia": 2318.260646587322,
+            "lat": -23.577004,
+            "lon": -46.733989
+        },
+        {
+            "title": "VL  PRAIA",
+            "distancia": 2319.526418075506,
+            "lat": -23.617277,
+            "lon": -46.745817
+        },
+        {
+            "title": "JD PREVIDÊNCIA",
+            "distancia": 2434.992555755682,
+            "lat": -23.579407,
+            "lon": -46.726026
+        },
+        {
+            "title": "PARAISOPOLIS",
+            "distancia": 2444.7330814215097,
+            "lat": -23.613973,
+            "lon": -46.724792
+        }
+    ]
+}
+```
+
 
 ##
 ### APIs usadas no projeto
