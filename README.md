@@ -49,11 +49,11 @@ Use os seguintes comando dentro da pasta **api** para:
 node app.js
 ```
 ## Documentação
-Não optamos pelo uso do swagger, já que o projeto possui apenas **um endpoint**
+Não optamos pelo uso do swagger, já que o projeto possui apenas **um endpoint**.
 Assim que API é iniciada, realizamos uma consulta na UBS API, mantemos os dados em memória.
-O usuário insere o valor CEP, consultamos a latitude e longitude no Google API, convertemos a posição das UBS's em um único valor usando a fórmula de haversine, usando como base  os dados retornados do Google API. Depois retornamos as 10 Unidades mais próximas do usuário.
+O usuário insere o valor CEP, consultamos a latitude e longitude no Google API, convertemos a posição das UBS's em um único valor usando a fórmula de haversine, usando como base  os dados retornados do Google API. Depois retornamos as **10** unidades mais próximas do usuário.
 
-###POST - Enviar CEP
+### POST - Enviar CEP
 Endpoint
 ```
 http://localhost:3000/
