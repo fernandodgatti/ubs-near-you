@@ -11,6 +11,11 @@ Abra a pasta **app** no terminal e execute o seguinte comando para baixar as dep
 npm i 
 ```
 
+Abra a pasta **api** no terminal e execute o seguinte comando para baixar as dependências da api:
+```bash
+npm i 
+```
+
 ## Executar o projeto
 
 ### Front-end
@@ -32,6 +37,16 @@ npm# run build
 #### Lint 
 ```
 npm run lint
+```
+
+### Back-end
+O projeto será executado em:
+[http://localhost:3000](http://localhost:3000)
+
+Use os seguintes comando dentro da pasta **api** para:
+#### Inicializar API
+```
+node app.js
 ```
 
 ##
